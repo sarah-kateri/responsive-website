@@ -1,7 +1,7 @@
 *, *::before, *::after {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,12 +9,17 @@ body {
     color: #2e323f;
 }
 
-header, footer {
-    background: #2e323f;
-    color: #6f737f;
+img {
+    max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+header {
+    background: #2e323f;
+    color: #6f737f;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
     font-family: 'Oswald', sans-serif;
     color: #a59678;
 }
@@ -39,32 +44,44 @@ h5 {
     font-size: 1.3rem;
 }
 
-h6 {
-    font-size: 1.125rem;
-}
-
 .title-accent {
     color: #fff;
 }
 
 .container {
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.logo{
-
-}
-
-.nav {
-
+.logo {
+    padding: 1em 0 0 0;
 }
 
 .nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
 
+.nav__list--secondary {
+    padding: 2em 0;
 }
 
 .nav__item {
+    margin-top: .75em;
+}
+
+.nav__link {
     text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.nav__link--button {
+    padding: .75rem 1.5rem;
+    background: #a59678;
+    border-radius: 100px;
 }
 
 .intro-section {
@@ -83,4 +100,9 @@ h6 {
 .card {
     background: #3b4050;
     color: #fff;
+}
+
+footer {
+    background: #2e323f;
+    color: #6f737f;
 }
