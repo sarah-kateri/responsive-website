@@ -1,0 +1,86 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e323f;
+}
+
+header, footer {
+    background: #2e323f;
+    color: #6f737f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #a59678;
+}
+
+h1 {
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.875rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
+
+.title-accent {
+    color: #fff;
+}
+
+.container {
+
+}
+
+.logo{
+
+}
+
+.nav {
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+    text-transform: uppercase;
+}
+
+.intro-section {
+    background: #3b4050;
+    color: #fff;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.section-two {
+    background: #eee;
+}
+
+.card {
+    background: #3b4050;
+    color: #fff;
+}
