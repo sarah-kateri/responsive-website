@@ -54,7 +54,7 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .col {
@@ -123,6 +123,7 @@ p {
 
 .section-two {
     background: #eee;
+    text-align: center;
 }
 
 .card {
@@ -135,4 +136,39 @@ p {
 footer {
     background: #2e323f;
     color: #6f737f;
+}
+
+@media (min-width: 700px) {
+
+    .logo {
+        padding: 0;
+    }
+
+    .nav {
+        display: flex; 
+        margin-left: auto;  
+    }
+
+    .nav__list { 
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav__list--secondary {
+        padding: 0 0 0 1em;;
+    }
+    
+    .nav__item {
+        margin-top: 0;
+    }
+    
+    .nav__link {
+        padding: 0 1rem;
+    }
+
+    .row {
+        display: flex;
+        gap: 2rem;
+        flex: 1;
+    }
 }
