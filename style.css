@@ -171,4 +171,9 @@ footer {
         gap: 2rem;
         flex: 1;
     }
+
+    .description {
+        align-self: flex-end;
+    }
+
 }
