@@ -116,6 +116,10 @@ p {
     color: #a59678;
 }
 
+.intro-text {
+    padding: .5rem 0;
+}
+
 .btn {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
