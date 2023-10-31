@@ -9,6 +9,10 @@ body {
     color: #2e323f;
 }
 
+section {
+    padding: 2rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -32,6 +36,7 @@ h1 {
 
 h2 {
     font-size: 2.25rem;
+    text-align: center;
 }
 
 h3 {
@@ -47,18 +52,18 @@ h5 {
 }
 
 p {
-    padding: .5rem 0;  
+    padding: 1rem 0 0 0;  
     margin: 0 0 1rem 0; 
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .col {
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
 }
 
 .logo {
@@ -97,7 +102,6 @@ p {
     color: #fff;
 }
 
-
 .titles {
     font-family: 'Oswald', sans-serif;
     font-size: 5.625rem;
@@ -130,12 +134,15 @@ p {
     background: #3b4050;
     color: #fff;
     padding: 1.5rem;
+    margin: .5rem 0;
     line-height: 1.75;
+    text-align: center;
 }
 
 footer {
     background: #2e323f;
     color: #6f737f;
+    padding: 2rem;
 }
 
 @media (min-width: 700px) {
@@ -172,8 +179,25 @@ footer {
         flex: 1;
     }
 
+    .cards {
+        display: flex;
+        gap: 1rem;
+        flex: 1;
+    }
+
     .description {
         align-self: flex-end;
     }
+}
 
+@media (min-width: 1000px) {
+
+    .section-three {
+        display: flex;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 0;
+    } 
 }
